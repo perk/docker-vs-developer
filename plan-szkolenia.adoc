@@ -1,0 +1,33 @@
+== Entrypoint
+
+* setup do aplikacji - jakaś migracja bazy danych przed uruchomieniem aplikacji?
+* uruchomienie aplikcji (Bash? Dash? Maven? Gradle? java -jar?)
+* `gosu` vs `USER`
+* poprawny skrypt Basha (https://major.io/2010/03/18/sigterm-vs-sigkill/[`SIGTERM` vs `SIGKILL`] vs `exec`)
+
+== Dockerfile
+
+* obraz bazowy
+* onbuild (multi-stage builds)
+* build cache
+* .dockerignore
+* CMD vs Entrypoint
+* shell vs exec form
+* expose portów w Dockerfile
+* historia obrazu
+
+== Docker Compose
+
+* wersja pliku docker-compose.yaml
+* wolumeny
+* sieci
+* `docker exec` vs `docker run` plus `--entrypoint`
+
+== Hack hack hack
+
+* unset ENV, EXPOSE
+
+== Linki
+* https://container.training
+* https://github.com/perk/docker-vs-developer
+* https://perk.pl
