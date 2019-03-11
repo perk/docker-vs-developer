@@ -1,0 +1,11 @@
+FROM ubuntu:bionic
+
+RUN set -x \
+  && apt update \
+  && apt-get upgrade --yes
+
+ARG cache
+
+RUN set -x \
+  && apt-get install --yes \
+       bash
