@@ -1,3 +1,10 @@
 == Docker vs developer
 
-Slajdy i kod do szkolenia
+=== Przygotowanie środowiska:
+
+1. Zainstaluj https://www.vagrantup.com/[Vagrant]
+1. Zainstaluj https://www.virtualbox.org/wiki/Downloads[VirtualBox]
+1. Sklonuj to repozytorium
+1. Uruchom maszynę wirtualną: `$ vagrant up`
+1. Zaloguj się: `$ vagrant ssh`
+1. Sprawdź, czy instalacja Dockera działa: `$ docker run hello-world`
