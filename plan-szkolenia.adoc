@@ -8,20 +8,24 @@
 == Dockerfile
 
 * obraz bazowy
-* onbuild (multi-stage builds)
+* onbuild (multi-stage builds) - budowanie vs uruchamianie
 * build cache
 * .dockerignore
 * CMD vs Entrypoint
 * shell vs exec form
 * expose portów w Dockerfile
 * historia obrazu
+* docker top
 
 == Docker Compose
 
 * wersja pliku docker-compose.yaml
-* wolumeny
+* wolumeny (w pliku vs zdefiniowany: postgres)
 * sieci
 * `docker exec` vs `docker run` plus `--entrypoint`
+* docker-compose down
+* docker-compose -p
+
 
 == Hack hack hack
 
