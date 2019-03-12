@@ -38,6 +38,17 @@ usermod -aG docker vagrant
 curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
+# Let's download some base images
+for image in \
+  ubuntu:latest \
+  ubuntu:bionic \
+  ubuntu:xenial \
+  mongo:latest \
+  postgres:latest \
+  nginx:latest \
+  openjdk:jre-slim \
+; do docker pull ${image}; done
+
 echo
 echo
 echo 'Aby zalogować się na maszynę, wpisz:'
