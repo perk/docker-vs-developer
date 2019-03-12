@@ -2,19 +2,20 @@
 
 * setup do aplikacji - jakaś migracja bazy danych przed uruchomieniem aplikacji?
 * uruchomienie aplikcji (Bash? Dash? Maven? Gradle? java -jar?)
-* `gosu` vs `USER`
+* link:user-gosu[`gosu` vs `USER`]
 * poprawny skrypt Basha (https://major.io/2010/03/18/sigterm-vs-sigkill/[`SIGTERM` vs `SIGKILL`] vs `exec`)
 
 == Dockerfile
 
-* obraz bazowy
-* onbuild (multi-stage builds) - budowanie vs uruchamianie
-* build cache
+* link:what-is-dockerfile[obraz bazowy]
+* link:build-arg[Argumenty dla `docker build`]
+* link:multi-stage-builds[multi-stage builds - budowanie vs uruchamianie]
+* link:build-cache[build cache]
 * .dockerignore
-* CMD vs Entrypoint
-* shell vs exec form
+* link:cmd-vs-entrypoint[CMD vs Entrypoint]
+* link:shell-vs-exec[shell vs exec form]
 * expose portów w Dockerfile
-* historia obrazu
+* link:docker-history[historia obrazu]
 * docker top
 
 == Docker Compose
