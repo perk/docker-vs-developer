@@ -21,7 +21,7 @@
 
 == Docker Compose
 
-* wersja pliku docker-compose.yaml
+* link:docker-compos[wersja pliku docker-compose.yaml]
 * wolumeny (w pliku vs zdefiniowany: postgres)
 * sieci
 * docker-compose down
@@ -29,7 +29,7 @@
 
 == Hack hack hack
 
-* file:cleanup-env-expose[unset ENV, EXPOSE]
+* link:cleanup-env-expose[unset ENV, EXPOSE]
 
 == Linki
 * https://container.training
