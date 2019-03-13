@@ -3,7 +3,7 @@
 * setup do aplikacji - jakaś migracja bazy danych przed uruchomieniem aplikacji?
 * uruchomienie aplikcji (Bash? Dash? Maven? Gradle? java -jar?)
 * link:user-gosu[`gosu` vs `USER`]
-* poprawny skrypt Basha (https://major.io/2010/03/18/sigterm-vs-sigkill/[`SIGTERM` vs `SIGKILL`] vs `exec`)
+* link:bash-signals[poprawny skrypt Basha `SIGTERM` vs `SIGKILL` vs `exec` (https://major.io/2010/03/18/sigterm-vs-sigkill/)]
 
 == Dockerfile
 
