@@ -48,6 +48,7 @@ for image in \
   postgres:latest \
   nginx:latest \
   openjdk:jre-slim \
+  alpine:latest \
 ; do docker pull ${image}; done
 
 echo

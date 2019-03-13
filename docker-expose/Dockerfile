@@ -1,0 +1,8 @@
+FROM netcat
+
+EXPOSE 1234/tcp
+EXPOSE 1234/udp
+
+EXPOSE 5678
+
+CMD netcat -l -p 1234
