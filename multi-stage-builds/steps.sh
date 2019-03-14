@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker build --tag multi-staget-builds .
+docker build --tag multi-stage-builds .
 
 docker run --rm -it multi-stage-builds ls -al /root
 
