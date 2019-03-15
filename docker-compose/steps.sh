@@ -10,6 +10,8 @@ docker-compose logs
 
 docker-compose up -d --force-recreate
 
+docker-compose up -d --force-recreate --build
+
 docker-compose build
 
 docker-compose down
